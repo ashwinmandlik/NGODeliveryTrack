@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.fortradestudio.mapowergeolocationtracker">
+    package="com.fortradestudio.AkshayaPatra">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -9,14 +9,14 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
-        android:name=".ManpowerApplication"
+        android:name="com.fortradestudio.AkshayaPatra.DeliveryApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MapowerGeolocationTracker" >
-        <activity android:name=".MainActivity" android:screenOrientation="portrait" >
+        android:theme="@style/Theme.AkshayaPatraDelivery" >
+        <activity android:name="com.fortradestudio.AkshayaPatra.MainActivity" android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,3 +29,4 @@
     </application>
 
 </manifest>
+

@@ -10,7 +10,7 @@ android {
     buildToolsVersion '23.0.2'
 
     defaultConfig {
-        applicationId "com.fortradestudio.mapowergeolocationtracker"
+        applicationId "com.fortradestudio.akshayapatra"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 9
